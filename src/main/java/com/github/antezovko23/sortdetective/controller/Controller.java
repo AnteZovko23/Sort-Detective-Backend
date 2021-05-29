@@ -9,7 +9,7 @@ import com.github.antezovko23.sortdetective.service.MetricsData;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-// import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,6 +23,9 @@ public class Controller {
 
     @Autowired
     MetricsData sortData;
+
+
+
 
 
     @GetMapping("/getSortData")

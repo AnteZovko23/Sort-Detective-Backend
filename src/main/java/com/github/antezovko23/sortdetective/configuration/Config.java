@@ -42,6 +42,8 @@ public class Config {
 
     }
 
+}
+
     // @Bean
     // public void allLists() {
         
@@ -52,4 +54,3 @@ public class Config {
 
 
     
-}
